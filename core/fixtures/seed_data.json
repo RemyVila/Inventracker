@@ -1,0 +1,164 @@
+{
+  "recipes": [
+    {
+      "name": "Chocolate Chip Cookies",
+      "items": [
+        { "ingredient": "Flour", "quantity": 300, "unit": "g" },
+        { "ingredient": "Granulated Sugar", "quantity": 150, "unit": "g" },
+        { "ingredient": "Brown Sugar", "quantity": 150, "unit": "g" },
+        { "ingredient": "Butter", "quantity": 200, "unit": "g" },
+        { "ingredient": "Eggs", "quantity": 2, "unit": "units" },
+        { "ingredient": "Chocolate Chips", "quantity": 250, "unit": "g" },
+        { "ingredient": "Baking Soda", "quantity": 5, "unit": "g" },
+        { "ingredient": "Salt", "quantity": 3, "unit": "g" }
+      ]
+    },
+    {
+      "name": "Banana Bread",
+      "items": [
+        { "ingredient": "Flour", "quantity": 250, "unit": "g" },
+        { "ingredient": "Bananas", "quantity": 300, "unit": "g" },
+        { "ingredient": "Brown Sugar", "quantity": 120, "unit": "g" },
+        { "ingredient": "Eggs", "quantity": 2, "unit": "units" },
+        { "ingredient": "Butter", "quantity": 100, "unit": "g" },
+        { "ingredient": "Baking Powder", "quantity": 5, "unit": "g" },
+        { "ingredient": "Vanilla Extract", "quantity": 5, "unit": "ml" },
+        { "ingredient": "Salt", "quantity": 2, "unit": "g" }
+      ]
+    },
+    {
+      "name": "Blueberry Muffins",
+      "items": [
+        { "ingredient": "Flour", "quantity": 200, "unit": "g" },
+        { "ingredient": "Granulated Sugar", "quantity": 150, "unit": "g" },
+        { "ingredient": "Butter", "quantity": 100, "unit": "g" },
+        { "ingredient": "Eggs", "quantity": 2, "unit": "units" },
+        { "ingredient": "Blueberries", "quantity": 150, "unit": "g" },
+        { "ingredient": "Milk", "quantity": 120, "unit": "ml" },
+        { "ingredient": "Baking Powder", "quantity": 8, "unit": "g" },
+        { "ingredient": "Salt", "quantity": 2, "unit": "g" }
+      ]
+    },
+    {
+      "name": "Cinnamon Rolls",
+      "items": [
+        { "ingredient": "Flour", "quantity": 350, "unit": "g" },
+        { "ingredient": "Yeast", "quantity": 7, "unit": "g" },
+        { "ingredient": "Milk", "quantity": 240, "unit": "ml" },
+        { "ingredient": "Butter", "quantity": 150, "unit": "g" },
+        { "ingredient": "Granulated Sugar", "quantity": 100, "unit": "g" },
+        { "ingredient": "Brown Sugar", "quantity": 100, "unit": "g" },
+        { "ingredient": "Eggs", "quantity": 1, "unit": "units" },
+        { "ingredient": "Cinnamon", "quantity": 12, "unit": "g" },
+        { "ingredient": "Salt", "quantity": 3, "unit": "g" }
+      ]
+    },
+    {
+      "name": "Chocolate Cake",
+      "items": [
+        { "ingredient": "Flour", "quantity": 250, "unit": "g" },
+        { "ingredient": "Granulated Sugar", "quantity": 200, "unit": "g" },
+        { "ingredient": "Cocoa Powder", "quantity": 60, "unit": "g" },
+        { "ingredient": "Baking Powder", "quantity": 6, "unit": "g" },
+        { "ingredient": "Baking Soda", "quantity": 6, "unit": "g" },
+        { "ingredient": "Salt", "quantity": 3, "unit": "g" },
+        { "ingredient": "Eggs", "quantity": 2, "unit": "units" },
+        { "ingredient": "Milk", "quantity": 180, "unit": "ml" },
+        { "ingredient": "Vegetable Oil", "quantity": 80, "unit": "ml" }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "name": "Bulk Baking Supply Co",
+      "contact_email": "sales@bulkbaking.example.com"
+    },
+    {
+      "name": "Premium Pantry Market",
+      "contact_email": "orders@premiumpantry.example.com"
+    }
+  ],
+  "vendor_products": [
+    {
+      "vendor": "Bulk Baking Supply Co",
+      "ingredient": "Flour",
+      "product_name": "AP Flour 5kg Bag",
+      "quantity": 5000,
+      "unit": "g",
+      "price": 8.99,
+      "sku": "FLOUR-5KG"
+    },
+    {
+      "vendor": "Bulk Baking Supply Co",
+      "ingredient": "Granulated Sugar",
+      "product_name": "Granulated Sugar 4kg",
+      "quantity": 4000,
+      "unit": "g",
+      "price": 6.49,
+      "sku": "SUGAR-GRAN-4KG"
+    },
+    {
+      "vendor": "Bulk Baking Supply Co",
+      "ingredient": "Brown Sugar",
+      "product_name": "Brown Sugar 3kg",
+      "quantity": 3000,
+      "unit": "g",
+      "price": 5.99,
+      "sku": "SUGAR-BROWN-3KG"
+    },
+    {
+      "vendor": "Bulk Baking Supply Co",
+      "ingredient": "Butter",
+      "product_name": "Butter 454g",
+      "quantity": 454,
+      "unit": "g",
+      "price": 4.49,
+      "sku": "BUTTER-454G"
+    },
+    {
+      "vendor": "Bulk Baking Supply Co",
+      "ingredient": "Eggs",
+      "product_name": "Large Eggs Dozen",
+      "quantity": 12,
+      "unit": "units",
+      "price": 3.29,
+      "sku": "EGGS-12"
+    },
+    {
+      "vendor": "Premium Pantry Market",
+      "ingredient": "Chocolate Chips",
+      "product_name": "Chocolate Chips 300g",
+      "quantity": 300,
+      "unit": "g",
+      "price": 3.99,
+      "sku": "CHOC-CHIPS-300G"
+    },
+    {
+      "vendor": "Premium Pantry Market",
+      "ingredient": "Milk",
+      "product_name": "Whole Milk 1L",
+      "quantity": 1000,
+      "unit": "ml",
+      "price": 2.89,
+      "sku": "MILK-1L"
+    },
+    {
+      "vendor": "Premium Pantry Market",
+      "ingredient": "Yeast",
+      "product_name": "Instant Yeast 21g",
+      "quantity": 21,
+      "unit": "g",
+      "price": 1.49,
+      "sku": "YEAST-21G"
+    },
+    {
+      "vendor": "Premium Pantry Market",
+      "ingredient": "Cocoa Powder",
+      "product_name": "Cocoa Powder 200g",
+      "quantity": 200,
+      "unit": "g",
+      "price": 5.49,
+      "sku": "COCOA-200G"
+    }
+  ]
+}
